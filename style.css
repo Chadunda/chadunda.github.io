@@ -1,9 +1,100 @@
 body {
     /* Background properties */
-    background-color: #757F9A;
+    background-color: #ECE9E6;
     
     /* Text properties */
     color: #414345;
     text-align: left;
     font: 15px arial, sans-serif;
+}
+
+td {
+    /* background-color: black;*/
+}
+
+a {
+    /* Text properties */
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #232526;
+}
+
+a:link:active, a:visited:active{
+    color: #FFFFFF;
+}
+
+div.customRule {
+    width: 99%;
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1px;
+    
+    background-color: #CCCCCC;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.pageCategory {
+    padding: 0;
+    margin: 0;
+    border-bottom: solid 1px #CCCCCC;
+    vertical-align: bottom;
+    
+    /* Text properties */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+td.header {
+    /* Text properties */
+    color: #414345;
+    text-align: right;
+    font-size: 500%;
+    font-family: headerFont;
+    
+    /* Table properties */
+    max-width: 600px;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+td.glossary {
+    /* Text properties */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+    /* Table properties */
+    padding-top: 20px;
+}
+
+h5.glossary {
+    display: inline;
+    
+    /* Text properties */
+    font-family: cursiveFont;
+    font-size: 24px;
+}
+
+td.content {
+    display: block;
+    
+    /* Text properties */
+    font-size: 16px;
+    
+    /* Table properties */
+    padding-top: 12px;
+    padding-left: 20px;
+    max-width: 600px
+}
+
+@font-face{
+    font-family: headerFont;
+    src: url(BonvenoCF-Light.woff);
+}
+
+@font-face{
+    font-family: cursiveFont;
+    src: url(jr!ha.woff);
 }
