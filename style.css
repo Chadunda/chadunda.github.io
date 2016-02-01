@@ -12,6 +12,10 @@ td {
     /* background-color: black;*/
 }
 
+/* ------------------------------
+   ANCHOR ADJUSTMENTS
+   ------------------------------*/
+
 a {
     /* Text properties */
     text-decoration: none;
@@ -21,9 +25,17 @@ a:link, a:visited {
     color: #232526;
 }
 
-a:link:active, a:visited:active{
-    color: #FFFFFF;
+a:link:active, a:visited:active {
+    color: #CCCCCC;
 }
+
+a:hover {
+    color: #888888;
+}
+
+/* ------------------------------
+   CUSTOM ADJUSTMENTS
+   ------------------------------*/
 
 div.customRule {
     width: 99%;
@@ -48,6 +60,10 @@ div.customRule {
     text-align: center;
 }
 
+/* ------------------------------
+   HEADER CLASSES
+   ------------------------------*/
+
 td.header {
     /* Text properties */
     color: #414345;
@@ -60,6 +76,10 @@ td.header {
     border-bottom: solid 1px #CCCCCC;
 }
 
+/* ------------------------------
+   GLOSSARY CLASSES
+   ------------------------------*/
+
 td.glossary {
     /* Text properties */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -71,16 +91,22 @@ td.glossary {
 
 h5.glossary {
     display: inline;
+    padding-bottom: 0em;
     
     /* Text properties */
-    font-family: cursiveFont;
-    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
-td.content {
+/* ------------------------------
+   CONTENT CLASSES
+   ------------------------------*/
+
+#content {
     display: block;
     
     /* Text properties */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     
     /* Table properties */
